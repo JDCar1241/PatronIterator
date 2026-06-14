@@ -8,7 +8,6 @@ public class Libro {
     private String categoria;
     private boolean disponible;
 
-    // Constructor
     public Libro(int id, String titulo, String autor, String categoria, boolean disponible) {
         this.id = id;
         this.titulo = titulo;
@@ -17,7 +16,6 @@ public class Libro {
         this.disponible = disponible;
     }
 
-    // Getters
     public int getId() {
         return id;
     }
@@ -40,12 +38,7 @@ public class Libro {
 
     @Override
     public String toString() {
-        return "ID: " + id +
-                "\nTítulo: " + titulo +
-                "\nAutor: " + autor +
-                "\nCategoría: " + categoria +
-                "\nDisponible: " + (disponible ? "Sí" : "No") +
-                "\n--------------------------------";
+        return "ID: " + id + "\nTítulo: " + titulo + "\nAutor: " + autor + "\nCategoría: " + categoria + "\nDisponible: " + (disponible ? "Sí" : "No") + "\n--------------------------------";
     }
 
 }
