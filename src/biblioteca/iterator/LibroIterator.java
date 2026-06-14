@@ -14,7 +14,6 @@ public class LibroIterator implements Iterator {
     public LibroIterator(ArrayList<Libro> libros) {
         this.libros = new ArrayList<>(libros);
 
-        // Ordenar por autor
         Collections.sort(this.libros, Comparator.comparing(Libro::getAutor));
     }
 
