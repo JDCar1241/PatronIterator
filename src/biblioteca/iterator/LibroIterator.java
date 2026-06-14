@@ -7,7 +7,6 @@ import biblioteca.modelo.Libro;
 
 public class LibroIterator implements Iterator {
 
-
     private ArrayList<Libro> libros;
     private int posicion = 0;
 
