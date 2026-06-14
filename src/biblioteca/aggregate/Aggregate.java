@@ -1,4 +1,10 @@
 package biblioteca.aggregate;
 
-public class Aggregate {
+
+import biblioteca.iterator.Iterator;
+
+public interface Aggregate {
+
+    Iterator createIterator();
+
 }
