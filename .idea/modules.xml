@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/patronIterator.iml" filepath="$PROJECT_DIR$/patronIterator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simplefactorylaptops/simplefactorylaptops.iml" filepath="$PROJECT_DIR$/simplefactorylaptops/simplefactorylaptops.iml" />
     </modules>
   </component>
 </project>
